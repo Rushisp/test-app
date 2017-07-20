@@ -1,0 +1,10 @@
+{
+    "extends": "../tsconfig",
+    "include": [
+        "../typings/tsd.d.ts",
+        "../../../test/typings/tsd.d.ts",
+        "**/*Tests.tsx",
+        "**/*Tests.ts"
+    ],
+    "exclude": []
+}
